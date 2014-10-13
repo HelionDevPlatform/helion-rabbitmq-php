@@ -7,6 +7,7 @@ This is a simple PHP app that uses RabbitMQ.
   Services Cluster available, please create one before continuing. You will also
   need to install the Helion CLI.  
 - Make sure that the RabbitMQ service is enabled. It is not enabled by default. 
+  You can take the following steps to enable it:
     - Go to the Management Console (e.g. https://api.example.com)
     - Admin --> Cluster --> Settings (gear icon on right corner) --> Check off 
       Rabbit3 --> Save

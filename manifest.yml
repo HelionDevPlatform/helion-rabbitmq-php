@@ -4,4 +4,9 @@ applications:
   buildpack: https://github.com/cloudfoundry/php-buildpack.git
   services:
     rabbitmq:
-      type: rabbitmq3
+      type: rabbitmq3  
+  helion: 
+    hooks:
+      pre-staging:
+        - curl -sS https://getcomposer.org/installer | php
+        - php composer.phar install
