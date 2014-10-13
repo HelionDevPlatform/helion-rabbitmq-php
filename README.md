@@ -10,11 +10,7 @@ This is a simple PHP app that uses RabbitMQ.
     - Go to the Management Console (e.g. https://api.example.com)
     - Admin --> Cluster --> Settings (gear icon on right corner) --> Check off 
       Rabbit3 --> Save
-- You will need [Composer] (https://getcomposer.org/) to install the dependencies. 
-  Simply run the following command to install dependencies:
-  
-    `composer install`    
-    
+
 ## Deploy the Application
 
 To deploy the application, make sure you have the Helion CLI/client installed. 
