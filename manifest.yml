@@ -5,7 +5,7 @@ applications:
   services:
     rabbitmq:
       type: rabbitmq3  
-  helion: 
+  stackato: 
     hooks:
       pre-staging:
         - curl -sS https://getcomposer.org/installer | php
