@@ -6,6 +6,12 @@ New users should check out the resources available at [HP Helion Docs](http://do
 The site includes more detail and has instructions on how to create an HP
 Helion Development Platform Application Lifecycle Services Cluster.
 
+This app uses the [Cloud Foundry PHP buildpack](https://github.com/cloudfoundry/php-buildpack)
+
+Please note that this app requires the latest buildpack from master for 
+compatibility. Once a new tagged release is available, this app will be using 
+a tagged release instead of getting the buildpack directly from master.
+
 ## Deploy to HP Helion
 
 You can deploy this app automatically with the button below or with the manual 

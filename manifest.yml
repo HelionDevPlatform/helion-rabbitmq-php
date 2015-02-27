@@ -1,7 +1,7 @@
 ---
 applications:
-- name: helion-rabbitmq-php  
-  buildpack: https://github.com/heroku/heroku-buildpack-php.git  
+- name: helion-rabbitmq-php
+  buildpack: https://github.com/cloudfoundry/php-buildpack  
   services:
     rabbitmq:
       type: rabbitmq3  
