@@ -1,10 +1,10 @@
 ---
 applications:
 - name: helion-rabbitmq-php
-  buildpack: https://github.com/cloudfoundry/php-buildpack  
+  buildpack: https://github.com/cloudfoundry/php-buildpack.git#v3.2.2
   services:
     rabbitmq:
-      type: rabbitmq3  
+      type: rabbitmq
   stackato: 
     hooks:
       pre-staging:
